@@ -64,6 +64,7 @@ button[type="submit"] {
 .pagination {
     display: flex;
     width: 1400px;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;

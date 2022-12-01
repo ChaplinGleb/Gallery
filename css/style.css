@@ -83,6 +83,9 @@ button[type="submit"] {
   display: -ms-flexbox;
   display: flex;
   width: 1400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-orient: horizontal;
