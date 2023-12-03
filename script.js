@@ -13,7 +13,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', () => 
                 } else {
                     result.push(low);
                     low = [];
-                    num += 20;
+                    num += 100;
                 }
             }
         }
