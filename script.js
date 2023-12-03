@@ -3,7 +3,7 @@ let low = [];
 let num = 100;
 
 document.querySelector('button[type="submit"]').addEventListener('click', () => {
-    let links = document.querySelector('textarea').value.split('http');
+    let links = document.querySelector('textarea').value.split(/\r?\n/);
 
     if (links.length > num) {
         for (let i = 0; i < links.length; i++) {
