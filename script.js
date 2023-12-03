@@ -1,6 +1,6 @@
 let result = [];
 let low = [];
-let num = 100;
+let num = 20;
 
 document.querySelector('button[type="submit"]').addEventListener('click', () => {
     let links = document.querySelector('textarea').value.split(/\r?\n/);
@@ -13,7 +13,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', () => 
                 } else {
                     result.push(low);
                     low = [];
-                    num += 100;
+                    num += 20;
                 }
             }
         }
