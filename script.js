@@ -8,7 +8,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', () => 
         for (let i = 0; i < links.length; i++) {
             if (links[i] != '') {
                 if (i < num) {
-                    low.push('http' + links[i])
+                    low.push(links[i])
                 } else {
                     result.push(low)
                     low = []
